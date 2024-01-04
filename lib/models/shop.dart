@@ -4,29 +4,27 @@ import 'package:flutter/material.dart';
 class Shop extends ChangeNotifier {
   final List<Product> _shop = [
     Product(
-      name: "Product 1",
-      price: 49.99,
-      description: "Item 1 description",
-      //imagePath: "imagePath")
-    ),
+        name: "Sleek Running Marvels",
+        price: 89.99,
+        description:
+            "Stylish running shoes with a lightweight mesh upper for breathability.",
+        imagePath: "assets/1_756697_FS_ALT1.jpeg"),
     Product(
-      name: "Product 2",
-      price: 42.99,
-      description: "Item 2 description",
-      //imagePath: "imagePath")
-    ),
+        name: "Urban Explorer Boots",
+        price: 142.99,
+        description: "ugged, waterproof leather boots with a fashionable edge.",
+        imagePath: "assets/1963661720_zm.jpg"),
     Product(
-      name: "Product 3",
-      price: 39.99,
-      description: "Item 3 description",
-      //imagePath: "imagePath")
-    ),
+        name: "Elegance in Motion Heels",
+        price: 139.99,
+        description:
+            "Timeless pointed-toe heels for formal occasions with a comfortable insole.",
+        imagePath: "assets/bb480lba.bne_0.jpg"),
     Product(
-      name: "Product 4",
-      price: 29.99,
-      description: "Item 4 description",
-      //imagePath: "imagePath")
-    ),
+        name: "Product 4",
+        price: 29.99,
+        description: "Item 4 description",
+        imagePath: "assets/new-balance-480-panske-tenisky-bila-bb480lwn.jpg"),
   ];
 
   List<Product> _cart = [];
